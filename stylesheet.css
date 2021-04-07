@@ -1,0 +1,438 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration:none;
+}
+
+/* header section */
+
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b67162;
+    color: whitesmoke; 
+}
+.menu ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+.menu{
+    color: whitesmoke;
+    font-size: 15px;
+    padding-right: 50px;
+    font-family: 'Playfair Display', serif;
+}
+.menu li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.logo{
+    font-size: 20px;
+    padding-left:100px;
+    color: whitesmoke;
+    font-family: 'Quattrocento', serif;
+}
+header .openMenu{
+    display:none;
+    margin-right:50px;
+    font-size:30px;
+    cursor: pointer;
+}
+header .closeMenu{
+    display:none;
+    font-size:30px;
+    cursor:pointer;
+    
+}
+
+/* home section */
+
+.home-content{
+    background-color: #edd8bf;
+    height: 100vh;
+}
+.home-texts{
+    font-family: 'Playfair Display', serif;
+    color: #b67162;
+}
+.home-content img{
+    width: 300px;
+    height:300px;
+    border-radius:200px;
+}
+.home-texts{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top:100px;
+    padding-left:50px;
+}
+.home-texts h1{
+    font-size:100px;
+}
+.home-texts h2{
+    font-size:50px;
+}
+.home-texts h2 br{
+    font-size: 20px;
+}
+.home-button{
+    display: flex;
+    justify-content: center;
+    padding-left:300px;
+    padding-bottom:50px;
+}
+.btn1{
+    color: white;
+    display: block;
+    width: 130px;
+    background-color: #cc7351;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 8px 5px;
+    text-align: center;
+    border: 1px solid transparent;
+} 
+.btn1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: white;
+    color: #cc7351;
+}  */
+
+/* About-Me Section  */
+
+.aboutme-section{
+    background-color: #f8ede3;
+    height: 100vh;
+    width: 100%;
+    /* display: flex;
+    align-items: center; */
+}
+.image-about img{
+    width: 300px;
+    height: 400px;
+    padding: 50px 0px 0px 100px;
+}
+.right-items{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+} 
+.head{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+.title{
+    font-size: 72px;
+    font-family: 'Playfair Display', serif;
+    color: #b67162;
+} 
+.profesi{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #cc7351;
+}
+/* Text-Contents */
+
+.text-contents{
+    width: 700px;
+    text-align: justify;
+}
+.para1{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 15px;
+} 
+/* Button Class */
+
+.button-class{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+button{
+    border:none;
+
+}
+.btn2-cv{
+    color: white;
+    display: block;
+    width: 130px;
+    background-color: #cc7351;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 8px 5px;
+    text-align: center;
+    border: 1px solid transparent;
+    font-family: 'Playfair Display', serif;
+}
+.social-links1{ 
+    padding-left: 50px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center; */
+}
+.social-links1 i{
+    color: #cc7351;
+}
+.social-links1 a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+/*  Experience Section */
+
+.experience-section{
+    background-color: #edd8bf;
+    height: 100vh;
+    width: 100%;
+}
+.title-exp{
+    font-size: 72px;
+    font-family: 'Playfair Display', serif;
+    color: #b67162;
+    padding-top: 50px;
+    text-align: center;
+
+}
+.experience{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+/* Education Section */
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.title-edu{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #cc7351;
+    text-decoration: underline;
+
+}
+.graduated1, .graduated2{
+    font-family: 'Source Serif Pro', serif;
+    color: black;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.graduated1{
+    font-size: 20px;
+}
+.graduated2{
+    font-size: 15px;
+}
+.degree{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #cc7351;
+    padding-top: 20px;
+}
+.list-edu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+.list-edu li{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 15px;
+    color: black;
+}
+
+/* Work Experience */
+
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.title-work{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #cc7351;
+    text-decoration: underline;
+}
+.date-intern,.intern{
+    font-family: 'Playfair Display', serif;
+    color: #cc7351;
+    padding-top: 10px;
+}
+.list-work1{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list-work1 li{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 15px;
+    color: black;
+}
+.second-work h3, .second-work h4{
+    font-family: 'Playfair Display', serif;
+    color: #cc7351;
+    padding-top: 10px;
+}
+.list-work2{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list-work2 li{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 15px;
+    color: black;
+}
+
+/* Contact Section */
+
+.contact-section{
+    background-color: #f8ede3;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title-contact h2{
+    font-size: 72px;
+    font-family: 'Playfair Display', serif;
+    color: #b67162;
+    padding-top: 10px;
+}
+.title-contact h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #cc7351;
+    padding-top: 10px;
+    text-align: center;
+}
+.button-contact{
+    padding-top: 30px;
+}
+.button-contact i,.button-contact span, .button-contact p{
+    color: #aa4a30;
+}
+.btnc-1, .btnc-2, .btnc-3{
+    background-color: #d8ac9c;
+    display: inline-block;
+    font-size: 12px;
+    border: 3px solid transparent;
+    width:150px;
+    height: 80px;
+    border-radius: 30px;
+    font-family:'Playfair Display', serif;
+}
+.contact-me h2{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #cc7351;
+    padding-top: 30px;
+}
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+.flex-form h4{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 15px;
+    color: #b67162;
+    font-weight: bold;
+}
+.name,.email,.textarea{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #b67162;
+}
+.name,.email{
+    height: 25px;
+    width: 200px;
+}
+.textarea{
+    height: 80px;
+    width: 200px;
+}
+.contact-submit{
+    display: flex;
+    align-items: center;
+    color: white;
+    display: block;
+    width: 130px;
+    background-color: #cc7351;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 8px 5px;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.contact-submit:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: white;
+    color: #cc7351;
+} 
+
+/* Footer Section */
+
+.footer-section{
+    width: 100%;
+    height: 50px;
+    background-color: #b67162;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-links2{
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    padding-left: 50px;
+}
+.social-links2 a{
+    padding-right: 40px;
+}
+.social-links2 i{
+    color: white;
+}
+.copy-right p{
+    font-size: 15px;  
+    font-family: 'Playfair Display', serif; 
+}
+.title-footer h4{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-right: 50px;
+    font-family: 'Playfair Display', serif; 
+}
+
+
+
