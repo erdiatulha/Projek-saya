@@ -1,0 +1,130 @@
+@media (max-width:1024px) {
+    .header{
+        width:125%;
+        height:70px;
+    }
+    .home-content{
+        width:125%;
+        height: 120vh;
+    }
+    #ABOUT{
+        width:125%;
+        height: 125vh;
+    }
+    .experience-section{
+        width:125%;
+        height: 125vh;
+    }
+    .contact-section{
+        width:125%;
+        height: 120vh;
+    }
+    .footer-section{
+        width:125%;
+        height:70px;
+    }
+}
+
+@media (max-width:680px) {
+    .header{
+        width:190%;
+        height:80px;
+    }
+    .logo{
+        font-size:30px;
+    }
+    .menu{
+        font-size:25px;
+    }
+    .home-content{
+        width:190%;
+        height: 190vh;
+    }
+    #ABOUT{
+        width:190%;
+        height: 190vh;
+    }
+    .para1{
+        padding-top:10px;
+        font-weight:bold;
+        font-size: 18px;
+    }
+    .btn2-cv{
+        width: 150px;
+        height:20px;
+        border-radius: 35px;
+        font-size: 15px;
+    }
+    .social-links1 a{
+        width: 60px;
+        height: 60px;
+    }
+    .experience-section{
+        width:190%;
+        height: 190vh;
+    }
+    .experience{
+        flex-direction: column;
+    }
+    .title-edu{
+        font-size: 50px;
+    }
+    .graduated1{
+        font-size: 20px;
+    }
+    .graduated2{
+        font-size: 20px;
+    }
+    .degree{
+        font-size:25px;
+    }
+    .list-edu li{
+        font-size: 20px;
+    }
+    .list-work1 li{
+        font-size: 20px;
+    }
+    .list-work2 li{
+        font-size: 20px;
+    }
+    .contact-section{
+        width:190%;
+        height: 180vh;
+    }
+    .btnc-1, .btnc-2, .btnc-3{
+        font-size: 15px;
+        width:200px;
+        height: 100px;
+        border-radius: 50px;
+    }
+    .name,.email{
+        height: 50px;
+        width: 300px;
+    }
+    .textarea{
+        height: 120px;
+        width: 300px;
+    }
+    .contact-submit{
+        width: 150px;
+        font-size: 15px;
+        margin-top: 30px;
+        height:50px;
+        border-radius: 50px;
+    }
+    .footer-section{
+        width:190%;
+        height:80px;
+    }
+    .title-contact h2{
+        padding-top: 50px;
+    }
+    .social-links2{
+        font-size: 20px;
+    }
+    .copy-right p{
+        font-size: 20px; 
+    }
+    .title-footer h4{
+        font-size: 30px;
+}

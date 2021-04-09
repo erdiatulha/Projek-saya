@@ -3,20 +3,46 @@
     margin:0px;
     text-decoration:none;
 }
+/* ---------------------dark mode----------------------------------------------*/
 
-/* header section */
+:root{
+    --primary-color:#edd8bf;
+    --secondary-color:#f8ede3;
+    --tertiary-color:#b67162;
+    --quaternary-color:#cc7351;
+    --quinary-color:#000106;
+    
+}
+.dark-mode{
+    --primary-color:#000106;
+    --secondary-color: #000106;
+    --tertiary-color: #fff;
+    --quaternary-color:#fff;
+    --quinary-color:#d8ac9c;
+    
+}
 
-header{
+#mode{
+    width:80px;
+    cursor: pointer;
+    color: var(--tertiary-color);
+    text-align: center;
+}
+span{
+    font-size: 15px;
+}
+ /* ---------------------------header section-------------------------------- */
+.header{
     width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #b67162;
-    color: whitesmoke; 
+    background-color: var(--primary-color);
+     
 }
 .menu ul{
-    width: 500px;
+    width: 600px;
     display: flex;
     justify-content: space-around;
 }
@@ -24,98 +50,84 @@ header{
     list-style: none;
 }
 .menu{
-    color: whitesmoke;
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 50px;
     font-family: 'Playfair Display', serif;
 }
 .menu li a{
-    color: whitesmoke;
+    color: var(--tertiary-color);
     text-decoration: none;
 }
+.menu li a:hover{
+    color:#d8ac9c;
+}
 .logo{
-    font-size: 20px;
+    font-size: 25px;
     padding-left:100px;
-    color: whitesmoke;
+    color: var(--tertiary-color);
     font-family: 'Quattrocento', serif;
 }
-header .openMenu{
-    display:none;
-    margin-right:50px;
-    font-size:30px;
-    cursor: pointer;
-}
-header .closeMenu{
-    display:none;
-    font-size:30px;
-    cursor:pointer;
-    
-}
 
-/* home section */
+/* -----------------------------------home section----------------------------- */
 
 .home-content{
-    background-color: #edd8bf;
+    background-color: var(--primary-color);
     height: 100vh;
-}
-.home-texts{
-    font-family: 'Playfair Display', serif;
-    color: #b67162;
-}
-.home-content img{
-    width: 300px;
-    height:300px;
-    border-radius:200px;
-}
-.home-texts{
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-top:100px;
-    padding-left:50px;
 }
-.home-texts h1{
-    font-size:100px;
+
+.greeting h1{
+    font-size:120px;
+    color: var(--tertiary-color);
 }
-.home-texts h2{
-    font-size:50px;
+.home-img img{
+    width: 400px;
+    height:400px
 }
-.home-texts h2 br{
-    font-size: 20px;
+.name-home h2{
+    font-family: 'Playfair Display', serif;
+    font-size:75px;
+    color: var(--tertiary-color);
 }
-.home-button{
-    display: flex;
-    justify-content: center;
-    padding-left:300px;
-    padding-bottom:50px;
+
+.name-home p{
+    font-family: 'Playfair Display', serif;
+    font-size:20px;
+    color: var(--tertiary-color);
 }
 .btn1{
-    color: white;
+    color:black;
     display: block;
     width: 130px;
-    background-color: #cc7351;
+    background-color: var(--tertiary-color);
     border-radius: 30px;
     font-size: 10px;
     padding: 8px 5px;
     text-align: center;
     border: 1px solid transparent;
+    margin-top:20px;
 } 
 .btn1:hover{
     text-decoration: underline;
     cursor: pointer;
-    background-color: white;
-    color: #cc7351;
-}  */
+    background-color: #d8ac9c;
+    color: var(--tertiary-color);
+    border:none;
+}  
 
-/* About-Me Section  */
+/* -----------------------------About-Me Section------------------------------  */
 
-.aboutme-section{
-    background-color: #f8ede3;
+#ABOUT{
+    background-color: var(--secondary-color);
     height: 100vh;
     width: 100%;
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
 }
 .image-about img{
     width: 300px;
@@ -136,15 +148,13 @@ header .closeMenu{
 .title{
     font-size: 72px;
     font-family: 'Playfair Display', serif;
-    color: #b67162;
+    color: var(--tertiary-color);
 } 
 .profesi{
     font-family: 'Playfair Display', serif;
     font-size: 30px;
-    color: #cc7351;
+    color: var(--quaternary-color);
 }
-/* Text-Contents */
-
 .text-contents{
     width: 700px;
     text-align: justify;
@@ -152,24 +162,22 @@ header .closeMenu{
 .para1{
     font-family: 'Source Serif Pro', serif;
     font-size: 15px;
+    color: var(--quinary-color);
 } 
-/* Button Class */
-
 .button-class{
     margin-top: 30px;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 button{
     border:none;
-
+    background-color: var(--secondary-color);
 }
 .btn2-cv{
-    color: white;
+    color: black;
     display: block;
     width: 130px;
-    background-color: #cc7351;
+    background-color: var(--tertiary-color);
     border-radius: 30px;
     font-size: 10px;
     padding: 8px 5px;
@@ -177,14 +185,21 @@ button{
     border: 1px solid transparent;
     font-family: 'Playfair Display', serif;
 }
+.btn2-cv:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #d8ac9c;
+    color: var(--tertiary-color);
+    border:none;
+} 
 .social-links1{ 
-    padding-left: 50px; */
+    padding-left: 50px; 
     display: flex;
     flex-direction: column;
-    text-align: center; */
+    text-align: center; 
 }
 .social-links1 i{
-    color: #cc7351;
+    color: var( --quaternary-color);
 }
 .social-links1 a{
     width: 40px;
@@ -194,28 +209,26 @@ button{
 }
 
 
-/*  Experience Section */
+/* ----------------------- Experience Section ----------------------*/
 
 .experience-section{
-    background-color: #edd8bf;
+    background-color: var(--primary-color);
     height: 100vh;
     width: 100%;
 }
 .title-exp{
     font-size: 72px;
     font-family: 'Playfair Display', serif;
-    color: #b67162;
+    color: var(--tertiary-color);
     padding-top: 50px;
     text-align: center;
-
 }
 .experience{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
-    padding-left: 150px;
+    padding: 100px 0px 0px 150px;
 }
 
 /* Education Section */
@@ -228,27 +241,27 @@ button{
 .title-edu{
     font-size: 40px;
     font-family: 'Playfair Display', serif;
-    color: #cc7351;
+    color: var(--quaternary-color);
     text-decoration: underline;
 
 }
 .graduated1, .graduated2{
     font-family: 'Source Serif Pro', serif;
-    color: black;
+    color: var(--quinary-color);
     padding-top: 10px;
     font-weight: bold;
 }
 .graduated1{
-    font-size: 20px;
+    font-size: 15px;
 }
 .graduated2{
     font-size: 15px;
 }
 .degree{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Source Serif Pro', serif;
+    color: var(--quaternary-color);
+    font-weight: bold;
     font-size: 20px;
-    color: #cc7351;
-    padding-top: 20px;
 }
 .list-edu{
     display: flex;
@@ -259,7 +272,8 @@ button{
 .list-edu li{
     font-family: 'Source Serif Pro', serif;
     font-size: 15px;
-    color: black;
+    color: var(--quinary-color);
+    
 }
 
 /* Work Experience */
@@ -268,16 +282,17 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding-left:25px;
 }
 .title-work{
     font-size: 40px;
     font-family: 'Playfair Display', serif;
-    color: #cc7351;
+    color: var(--quaternary-color);
     text-decoration: underline;
 }
 .date-intern,.intern{
     font-family: 'Playfair Display', serif;
-    color: #cc7351;
+    color: var(--quaternary-color);
     padding-top: 10px;
 }
 .list-work1{
@@ -289,11 +304,11 @@ button{
 .list-work1 li{
     font-family: 'Source Serif Pro', serif;
     font-size: 15px;
-    color: black;
+    color: var(--quinary-color);
 }
 .second-work h3, .second-work h4{
     font-family: 'Playfair Display', serif;
-    color: #cc7351;
+    color: var(--quaternary-color);
     padding-top: 10px;
 }
 .list-work2{
@@ -305,13 +320,13 @@ button{
 .list-work2 li{
     font-family: 'Source Serif Pro', serif;
     font-size: 15px;
-    color: black;
+    color: var(--quinary-color);
 }
 
-/* Contact Section */
+/* ----------------------------Contact Section--------------------- */
 
 .contact-section{
-    background-color: #f8ede3;
+    background-color: var(--secondary-color);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -321,13 +336,13 @@ button{
 .title-contact h2{
     font-size: 72px;
     font-family: 'Playfair Display', serif;
-    color: #b67162;
+    color:  var(--tertiary-color);
     padding-top: 10px;
 }
 .title-contact h3{
     font-family: 'Playfair Display', serif;
     font-size: 20px;
-    color: #cc7351;
+    color: var(--quaternary-color);
     padding-top: 10px;
     text-align: center;
 }
@@ -350,7 +365,7 @@ button{
 .contact-me h2{
     font-size: 20px;
     font-family: 'Playfair Display', serif;
-    color: #cc7351;
+    color: var(--quaternary-color);
     padding-top: 30px;
 }
 .flex-form{
@@ -362,13 +377,13 @@ button{
 .flex-form h4{
     font-family: 'Source Serif Pro', serif;
     font-size: 15px;
-    color: #b67162;
+    color: var(--tertiary-color);
     font-weight: bold;
 }
 .name,.email,.textarea{
     border: 1px solid;
     border-radius: 5px;
-    border-color: #b67162;
+    border-color: var(--tertiary-color);
 }
 .name,.email{
     height: 25px;
@@ -381,10 +396,10 @@ button{
 .contact-submit{
     display: flex;
     align-items: center;
-    color: white;
+    color: black;
     display: block;
     width: 130px;
-    background-color: #cc7351;
+    background-color: var( --quaternary-color);
     border-radius: 30px;
     font-size: 10px;
     padding: 8px 5px;
@@ -396,24 +411,24 @@ button{
 .contact-submit:hover{
     text-decoration: underline;
     cursor: pointer;
-    background-color: white;
-    color: #cc7351;
+    background-color: #d8ac9c;;
+    color: var( --quaternary-color);
 } 
 
-/* Footer Section */
+/* ----------------------Footer Section-------------------------- */
 
 .footer-section{
     width: 100%;
     height: 50px;
-    background-color: #b67162;
-    color: whitesmoke;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .social-links2{
     font-size: 15px;
-    color: whitesmoke;
+    color: var(--tertiary-color);
     font-family: 'Playfair Display', serif;
     padding-left: 50px;
 }
@@ -421,7 +436,7 @@ button{
     padding-right: 40px;
 }
 .social-links2 i{
-    color: white;
+    color: var(--tertiary-color);
 }
 .copy-right p{
     font-size: 15px;  
@@ -429,10 +444,7 @@ button{
 }
 .title-footer h4{
     font-size: 20px;
-    color: whitesmoke;
+    color: var(--tertiary-color);
     padding-right: 50px;
     font-family: 'Playfair Display', serif; 
 }
-
-
-
