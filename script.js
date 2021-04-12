@@ -12,5 +12,24 @@ mode.onclick=function(){
   }
 } 
 
+//hamburger menu
+
+const menu = document.querySelector('.menu ul')
+const closeMenu = document.querySelector('.header .menu .closeMenu')
+const openMenu = document.querySelector('.header .openMenu')
+
+openMenu.addEventListener('click' , show)
+closeMenu.addEventListener('click' , close)
+
+function show() {
+  menu.style.display = 'flex' ;
+  menu.style.top = '0' ;
+}
+function close() {
+  menu.style.top = '-100%' ;
+}
+
+
+
 
 

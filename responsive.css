@@ -24,107 +24,486 @@
         height:70px;
     }
 }
-
-@media (max-width:680px) {
+@media (max-width:974px) {
     .header{
-        width:190%;
-        height:80px;
-    }
-    .logo{
-        font-size:30px;
-    }
-    .menu{
-        font-size:25px;
+        width:130%;
     }
     .home-content{
-        width:190%;
-        height: 190vh;
+        width:130%;
     }
     #ABOUT{
-        width:190%;
-        height: 190vh;
-    }
-    .para1{
-        padding-top:10px;
-        font-weight:bold;
-        font-size: 18px;
-    }
-    .btn2-cv{
-        width: 150px;
-        height:20px;
-        border-radius: 35px;
-        font-size: 15px;
-    }
-    .social-links1 a{
-        width: 60px;
-        height: 60px;
+        width:130%;
     }
     .experience-section{
-        width:190%;
-        height: 190vh;
+        width:130%;
+    }
+    .contact-section{
+        width:130%;
+    }
+    .footer-section{
+        width:130%;
+    }
+}
+@media (max-width:906px) {
+    .header{
+        width:135%;
+    }
+    .home-content{
+        width:135%;
+    }
+    #ABOUT{
+        width:135%;
+    }
+    .experience-section{
+        width:135%;
+    }
+    .contact-section{
+        width:135%;
+    }
+    .footer-section{
+        width:135%;
+    }
+}
+@media (max-width:900px) {
+    .header{
+        width:138%;
+        height:70px;
+    }
+    .home-content{
+        width:138%;
+        height:135vh;
+    }
+    #ABOUT{
+        width:138%;
+        height:138vh;
+    }
+    .text-contents{
+        width: 600px;
+        text-align: justify;
+    }
+    .social-links1{ 
+        padding-left: 50px; 
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+    }
+    .experience-section{
+        width:138%;
+        height:138vh;
+    }
+    .contact-section{
+        width:138%;
+        height:125vh;
+    }
+    .name,.email{
+        height: 40px;
+        width: 250px;
+    }
+    .textarea{
+        height: 110px;
+        width: 250px;
+    }
+    .footer-section{
+        width:138%;
+        height:70px;
+    }
+}
+@media (max-width:888px) {
+    .header{
+        width:145%;
+        height:70px;
+    }
+    .home-content{
+        width:145%;
+        height: 130vh;
+    }
+    #ABOUT{
+        width:145%;
+        height: 145vh;
+    }
+    .experience-section{
+        width:145%;
+        height: 145vh;
+    }
+    .contact-section{
+        width:145%;
+        height: 130vh;
+    }
+    .name,.email{
+        height: 50px;
+        width: 250px;
+    }
+    .textarea{
+        height: 130px;
+        width: 250px;
+    }
+    .footer-section{
+        width:145%;
+        height:70px;
+    }
+}
+@media (max-width:806px) {
+    .text-contents{
+        width: 550px;
+    }
+}
+@media (max-width:772px) {
+    .image-about img{
+        width: 250px;
+        height: 350px;
+        padding: 50px 0px 0px 100px;
+    }
+    .education{
+        padding-right:20px;
+    }
+    .list-edu li{
+        font-size: 15px;
+        padding-top:10px;
+        width:400px;
+    }
+    .work{
+        padding-left:5px;
+    }
+    .list-work1 li{
+        padding-top:10px;
+        width:400px;
+    }
+    .list-work2 li{
+        padding-top:10px;
+        width:400px;
+    }
+}
+@media (max-width:742px) {
+    .text-contents{
+        width: 500px;
+    }
+    .greeting h1{
+        font-size:100px;
+    }
+    .home-img img{
+        width: 350px;
+        height:350px
+    }
+    .name-home h2{
+        font-size:50px;
+    } 
+}
+@media (max-width:734px) {
+    .text-contents{
+        width: 500px;
+    }
+    .greeting h1{
+        font-size:100px;
+    }
+    .home-img img{
+        width: 350px;
+        height:350px
+    }
+    .name-home h2{
+        font-size:50px;
+    } 
+}
+@media (max-width:702px) {
+    .text-contents{
+        width: 480px;
+    }
+    .image-about img{
+        width: 220px;
+        height: 320px;
+        padding: 50px 0px 0px 100px;
+    } 
+}
+@media (max-width:678px) {
+    .home-content{
+        height:135vh;
+    }
+    .contact-section{
+        height:135vh;
+    }
+}
+@media (max-width:642px) {
+    .header{
+        width:155%;
+    }
+    .logo{
+        padding-left:50px;
+    }
+    .home-content{
+        width:155%;
+        height:140vh;
+    }
+    #ABOUT{
+        width:155%;
+        height:155vh;
+    }
+    .experience-section{
+        width:155%;
+        height:155vh;
+    }
+    .contact-section{
+        width:155%;
+        height:140vh;
+    }
+    .footer-section{
+        width:155%;
+    }
+    .list-edu li{
+        font-size: 15px;
+        padding-top:10px;
+        width:350px;
+    }
+    .work{
+        padding-left:5px;
+    }
+    .list-work1 li{
+        padding-top:10px;
+        width:350px;
+    }
+    .list-work2 li{
+        padding-top:10px;
+        width:350px;
+    }
+    .date-intern,.intern{
+        width:350px;
+    }
+    .right-items{
+        padding-left: 40px;
+    } 
+    .menu ul{
+        width: 500px;
+    }
+}
+@media (max-width:612px) {
+    .image-about img{
+        padding: 50px 0px 0px 50px;
+    }
+}
+@media (max-width: 600px) {
+    .experience{
+        
+        padding: 100px 0px 0px 50px;
+    }
+}
+@media (max-width:582px) {
+    .home-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-contents{
+        width: 400px;
+        text-align: justify;
+    }
+}
+@media (max-width:526px) {
+    .home-content{
+        height:145vh;
+    }
+    .menu ul{
+        width: 450px;
+    }
+    .menu{
+        font-size: 15px;
+    }
+    #ABOUT{
+        flex-direction: column;
+    }
+    .image-about img{
+        padding: 20px 0px 0px 0px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .profesi{
+        font-size: 20px;
+    }
+    .para1{
+        font-size: 12px;
+    }
+    .text-contents{
+        width: 570px;
+    }
+    .social-links1{
+        flex-direction: row;
+    }
+    .social-links1 a{
+        margin-right: 80px; 
+        margin-top: 30px;
+    }
+    .title-exp{
+        font-size: 50px;
+    }
+    .title-edu{
+        font-size: 30px;
+    }
+    .degree{
+        font-size: 15px;
     }
     .experience{
         flex-direction: column;
-    }
-    .title-edu{
-        font-size: 50px;
-    }
-    .graduated1{
-        font-size: 20px;
-    }
-    .graduated2{
-        font-size: 20px;
-    }
-    .degree{
-        font-size:25px;
+        padding: 50px 0px 0px 50px;
     }
     .list-edu li{
-        font-size: 20px;
+        width:500px;
+        font-size: 15px;
+        padding-top: 0px;
     }
     .list-work1 li{
-        font-size: 20px;
+        width:500px;
+        font-size: 15px;
+        padding-top: 0px;
     }
     .list-work2 li{
+        width:500px;
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .title-work{
+        font-size: 30px;
+        padding-top:20px;
+    }
+    .date-intern,.intern{
+        font-size: 15px;
+    }
+}
+@media (max-width:480px) {
+    .logo{
         font-size: 20px;
     }
-    .contact-section{
-        width:190%;
-        height: 180vh;
-    }
-    .btnc-1, .btnc-2, .btnc-3{
+    .menu{
         font-size: 15px;
-        width:200px;
-        height: 100px;
+        padding-right: 20px;
+    }
+    .text-contents{
+        width: 550px;
+    }
+    .para1{
+        font-size: 13px;
+        font-weight: bold;
+    } 
+}
+@media (max-width:406px) {
+    .menu ul{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position:fixed;
+        top: 0;
+        right:0;
+        left:0;
+        z-index:10;
+        background-color: var(--secondary-color);
+        height:155vh;
+        width:60%;
+        transition: top 1s ease;
+
+    }
+    .header .openMenu{
+        display:block;
+    }
+    .header .menu .closeMenu{
+        display:block;
+        position:absolute;
+        top:20px;
+        left:20px;
+    }
+    .text-contents{
+        width: 420px;
+    }
+    .contact-section{
+        height: 145vh;
+    }
+    .btn1, .contact-submit{
+        width: 150px;
+        height:7vh;
         border-radius: 50px;
+        font-size: 13px;
+    } 
+    .btn2-cv{
+        width: 150px;
+        height: 3vh;
+        font-size: 13px;
+        border-radius: 50px;
+    }
+    .social-links2{
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .social-links2 a{
+        padding-right: 20px;
+    }
+    .copy-right p{
+        font-size: 12px; 
+    }
+    .logo{
+        font-size: 20px;
+    }       
+}
+
+@media (max-width:352px) {
+    .header{
+        width:155%;
+        
+    }
+    .home-content{
+        width:155%;
+        
+    }
+    #ABOUT{
+        width:155%;
+        
+    }
+    .experience-section{
+        width:155%;
+      
+    }
+    .experience{
+        padding-left:80px;
+    }
+    .contact-section{
+        width:155%;
+       
+    }
+    .footer-section{
+        width:155%;
+       
     }
     .name,.email{
         height: 50px;
         width: 300px;
     }
     .textarea{
-        height: 120px;
+        height: 150px;
         width: 300px;
     }
-    .contact-submit{
-        width: 150px;
-        font-size: 15px;
-        margin-top: 30px;
-        height:50px;
-        border-radius: 50px;
+}
+@media (max-width:330px) {
+    .header{
+        width:160%;
+        
+    }
+    .home-content{
+        width:160%;
+        height:158vh;
+    }
+    #ABOUT{
+        width:160%;
+        height:160vh;
+    }
+    .experience-section{
+        width:160%;
+        height:160vh;
+    }
+    .contact-section{
+        width:160%;
+        height:150vh;
     }
     .footer-section{
-        width:190%;
-        height:80px;
+        width:160%;
+       
     }
-    .title-contact h2{
+    .flex-form{
         padding-top: 50px;
     }
-    .social-links2{
-        font-size: 20px;
-    }
-    .copy-right p{
-        font-size: 20px; 
-    }
-    .title-footer h4{
-        font-size: 30px;
+    
 }

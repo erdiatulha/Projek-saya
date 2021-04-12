@@ -31,6 +31,20 @@
 span{
     font-size: 15px;
 }
+/* -----------------------------hamburger button----------------------------------------------- */
+.header .openMenu{
+    font-size:20px;
+    margin-right:50px;
+    cursor:pointer;
+    display:none;
+    color: var(--quaternary-color);
+}
+.header .menu .closeMenu{
+    font-size:20px;
+    cursor:pointer;
+    display:none;
+    color: var(--quaternary-color);
+}
  /* ---------------------------header section-------------------------------- */
 .header{
     width: 100%;
@@ -143,7 +157,6 @@ span{
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
-
 }
 .title{
     font-size: 72px;
