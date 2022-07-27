@@ -134,14 +134,14 @@ span{
 
 /* -----------------------------About-Me Section------------------------------  */
 
-#ABOUT{
+.about-container{
     background-color: var(--secondary-color);
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    justify-content: center;
 }
 .image-about img{
     width: 300px;
@@ -228,6 +228,9 @@ button{
     background-color: var(--primary-color);
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .title-exp{
     font-size: 72px;
@@ -344,6 +347,7 @@ button{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 .title-contact h2{
